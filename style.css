@@ -1,0 +1,23 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.bangla-font{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.btn-active{
+    background-color: #00BCFF;
+    color: white; 
+    border: none;
+}
+
+ /* <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold"><span>English</span>is Easy!!</h1>
+                    <p class="py-6">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা
+                        বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                        <input type="text" placeholder="Enter your Name" class="input input-bordered w-full max-w-xs mb-4" />
+                        <input type="password" placeholder="Enter your Password" class="input input-bordered w-full max-w-xs mb-4" />
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div> */

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English janala</title>
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.min.css">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <!-- daisy UI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!-- navbar startr -->
+    <header>
+        <div class="navbar bg-base-100 shadow-sm fixed top-0 z-10 px-4 ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <div tabindex="0" class="menu menu-sm dropdown-content brounded-box z-1 mt-3 w-52 p-2">
+
+                        <ul class="menu menu-horizontal px-1 space-x-4">
+                            <li><a class="btn " href="#">
+                                    <i class="fa-solid fa-graduation-cap"></i> Learn
+                                </a></li>
+                            <li><a class="btn " href="#">
+                                    <i class="fa-solid fa-circle-question"></i> FAQ
+                                </a></li>
+                            <li><a class="btn mt-2" href="#">
+                                    <i class="fa-solid fa-right-from-bracket"></i> LogOut
+                                </a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <a class="flex items-center gap-1" href="#">
+                    <span class="font-semibold text-lg">ENGLISH</span>
+                    <img src="./assets/logo.png" alt="">
+                    <span class="font-semibold text-lg bangla-font">জানালা</span>
+                </a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 space-x-4">
+                    <li><a class="btn btn-outline btn-primary" href="#">
+                            <i class="fa-solid fa-graduation-cap"></i> Learn
+                        </a></li>
+                    <li><a class="btn btn-outline btn-primary" href="#">
+                            <i class="fa-solid fa-circle-question"></i> FAQ
+                        </a></li>
+                    <li><a class="btn btn-outline btn-primary" href="#">
+                            <i class="fa-solid fa-right-from-bracket"></i> LogOut
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- banner start -->
+    <section class="mt-8 md:mt-6  mb-10   ">
+        <div class="towDiv grid grid-cols-1 md:grid-cols-2 gap-4 items-center w-full max-w-7xl  mx-auto">
+            <div class="p-4 order-2 md:order-1 text-center md:text-left space-y-4">
+
+                <div class="max-w-md flex flex-col">
+                    <h1 class="text-5xl font-bold"><span class="text-[#00BCFF]">English </span>is Easy!!</h1>
+                    <p class="py-6 bangla-font text-[24px] ">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন
+                        হন অথবা আপনার
+                        দক্ষতা
+                        বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                    <input type="text" placeholder="Enter your Name"
+                        class="input input-bordered w-full max-w-xs mb-4" />
+                    <input type="password" placeholder="Enter your Password"
+                        class="input input-bordered w-full max-w-xs mb-4" />
+
+
+                </div>
+                <button class="btn btn-primary">Get Started</button>
+
+            </div>
+            <div class="p-4 order-1 md:order-2">
+                <img class="object-cover" src="./assets/hero-student.png" alt="Banner Image" class="w-full h-auto">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- banner end -->
+
+    <section>
+        <h1 class=" text-3xl md:text-5xl text-center font-bold"><span class="text-[#00BCFF]">Let's</span>Let's Learn
+            Vocabularies</h1>
+
+        <div class=" flex w-full max-w-7xl mx-auto justify-center mt-10 gap-4 flex-wrap" id="lessonListDiv"></div>
+    </section>
+
+
+
+    <!-- search section -->
+<!-- 
+    <section class="mt-16 text-center mb-12">
+        <div class="join">
+  <div>
+    <label class="input validator join-item">
+      <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-width="2.5"
+          fill="none"
+          stroke="currentColor"
+        >
+          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+        </g>
+      </svg>
+      <input id="searchInput" type="search" placeholder="Search" required />
+    </label>
+    <div class="validator-hint hidden">Enter valid email address</div>
+  </div>
+  <button id="searchBtn" class="btn btn-neutral join-item"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+    </section> -->
+<!-- spinner  -->
+ <section class="flex justify-center items-center mt-10 hidden" id="spinner">
+    <span class="loading loading-dots loading-xl"></span>
+ </section>
+
+    <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-7xl mt-6 h-auto mx-auto 
+         bg-[#E2E2E2] mb-12 justify-items-center p-6 rounded-lg">
+
+
+        <div></div>
+        <div class="bg-yellow-100 text-yellow-800 p-6 rounded-lg flex flex-col text-center">
+            <p class="text-center bangla-font"> আপনি এখনো কোন Lesson Select করেন নাই </p>
+            <h2 class="text-xl bangla-font font-bold text-center">একটি Lesson Select করুন</h2>
+        </div>
+
+        <div></div>
+    </div>
+
+
+
+    <!-- modal -->
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" >open modal</button> -->
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div id="modalContent" class="modal-box">
+
+
+        </div>
+    </dialog>
+
+
+<!-- footer -->
+ <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+  <aside>
+    <svg
+      width="50"
+      height="50"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      class="fill-current">
+      <path
+        d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
+    </svg>
+    <p>
+      ACME Industries Ltd.
+      <br />
+      Providing reliable tech since 1992
+    </p>
+  </aside>
+  <nav>
+    <h6 class="footer-title">Services</h6>
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Legal</h6>
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </nav>
+</footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
